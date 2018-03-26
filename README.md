@@ -22,7 +22,7 @@ The smart-contract can be found [here](/ico/TheTokenYouNeed.sol)
 
 We deployed the contract and it is at this [link](https://ropsten.etherscan.io/token/0x61fb05546e1d29db9fb90f8aac8492f3783380fa)
 
-TheTokenYouNeed is the token associated with TheStudentYouNeed, a start-up that connects skillful students to SME.
+TheTokenYouNeed is the token associated with TheStudentYouNeed, a start-up that allows a fast and reliable tip system for hospitality trade.
 
 We do an ICO and our tokens are equivalent to shares purchased, they sell a right of ownership.
 
