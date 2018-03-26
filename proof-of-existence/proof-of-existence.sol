@@ -34,4 +34,8 @@ contract ProofOfExistence {
     function doesProofExist(uint256 id, bytes32 documentHash) public view returns (bool) {
         return hashesById[id] == documentHash;
     }
+
+    function kill() public {
+      if(msg.sender == owner) selfdestruct(owner);
+   }
 }
