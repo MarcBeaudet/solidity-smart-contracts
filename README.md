@@ -11,6 +11,7 @@ Collective decision making in general, and voting in particular represent a core
 
 * The organizer is the one who deploys the contract on the Mainnet or Ropsten.
 * Voters are everyone that have acces to the adress of the smart-contract.
+* Voters can vote only one time.
 * Propositions of the vote are decided by the organizer when he deploys the smart-contract.
 
 
@@ -18,6 +19,7 @@ Collective decision making in general, and voting in particular represent a core
 Tokens & ICO smart-contract
 ----------------
 The smart-contract can be found [here](/ico/TheTokenYouNeed.sol)
+
 We deployed the contract and it is at this [link](https://ropsten.etherscan.io/token/0x61fb05546e1d29db9fb90f8aac8492f3783380fa)
 
 TheTokenYouNeed is the token associated with TheStudentYouNeed, a start-up that connects skillful students to SME.
