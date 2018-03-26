@@ -89,7 +89,7 @@ contract TheTokenYouNeed is StandardToken {
     string public name;
     uint8 public decimals;
     string public symbol;
-    string public version = '0.1'; 
+    string public version = 'H1.0'; 
     uint256 public unitsOneEthCanBuy;
     uint256 public totalEthInWei;
     address public fundsWallet;
