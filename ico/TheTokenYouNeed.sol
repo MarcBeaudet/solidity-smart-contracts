@@ -89,7 +89,7 @@ contract TheTokenYouNeed is StandardToken {
     string public name;
     uint8 public decimals;
     string public symbol;
-    string public version = 'H1.0'; 
+    string public version = '0.1'; 
     uint256 public unitsOneEthCanBuy;
     uint256 public totalEthInWei;
     address public fundsWallet;
@@ -131,4 +131,8 @@ contract TheTokenYouNeed is StandardToken {
         if(!_spender.call(bytes4(bytes32(sha3("receiveApproval(address,uint256,address,bytes)"))), msg.sender, _value, this, _extraData)) { throw; }
         return true;
     }
+
+    function kill() public {
+      if(msg.sender == owner) selfdestruct(owner);
+   }
 }
